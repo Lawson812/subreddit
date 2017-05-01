@@ -1,0 +1,83 @@
+@font-face{
+    font-family: code;
+    src: url(codelight.otf);
+   
+}
+@font-face{
+    
+     font-family:title;
+    src:url(basictitlefont.ttf);
+}
+html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    #bar7 {
+        width: 50%;
+        margin: 100px auto;
+        border:1px black solid;
+        
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+.selections{
+    display:inline;
+    padding: 1% 0%;
+}
+.images{
+    border:1px black solid;
+
+}
+.author{
+    font-family:code;
+}
+h1{
+    font-family:title;
+    text-align:right;
+    color:darkred;  
+}
+#heading{
+    height: 5vh;
+    width:100%;
+    background-color:black;
+}
+#form{
+    text-align: center;
+    
+}
+input, button{
+    font-family:code;
+    font-weight: bolder;
+
+}
+button{
+    border:none;
+    background-color:lavender;
+}
+.reddit{
+    color:palegoldenrod;
+    font-family:title;
+    font-weight: 1000;
+}
+.lb-caption{
+    font-family: code;
+}
+.lb-number{
+    font-family:code;
+}
