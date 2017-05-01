@@ -81,3 +81,10 @@ button{
 .lb-number{
     font-family:code;
 }
+.json{
+    border:1px purple solid;
+    text-align: center;
+    width:20%;
+    height:20%;
+    margin-left:40%;
+}
